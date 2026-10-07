@@ -1,51 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  ol {
-    margin: 0;
-    padding: 0;
-    list-style-position: inside;  /
-  }
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
 
-  li {
-    height: 70px;
-    line-height: 70px;
-    padding-left: 20px;
-    font-size: 20px;
-    color: white;
-  }
+li {
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+  font-size: 20px;
+  color: white;
+}
 
-  .black-text {
-    color: black;
-  }
-</style>
-</head>
-<body>
-
-  <ol>
-    <li style="background: #000000;">black #000000</li>
-    <li style="background: #C0C0C0;">silver #C0C0C0</li>
-    <li style="background: #808080;">gray #808080</li>
-    <li style="background: #3498db;">PETER RIVER #3498db</li>
-    <li style="background: #800000;">maroon #800000</li>
-    <li style="background: #FF0000;">red #FF0000</li>
-    <li style="background: #800080;">purple #800080</li>
-    <li class="black-text" style="background: #FF00FF;">white #FF00FF</li>
-    <li style="background: #008000;">green #008000</li>
-    <li class="black-text" style="background: #00FF00;">lime #00FF00</li>
-    <li style="background: #808000;">olive #808000</li>
-    <li class="black-text" style="background: #FFFF00;">yellow #FFFF00</li>
-    <li style="background: #000080;">navy #000080</li>
-    <li style="background: #0000FF;">blue #0000FF</li>
-    <li style="background: #008080;">teal #008080</li>
-    <li class="black-text" style="background: #00FFFF;">aqua #00FFFF</li>
-  </ol>
-
-</body>
-</html>
+.black  { background: #000000; }
+.silver { background: #C0C0C0; }
+.gray   { background: #808080; }
+.peter  { background: #3498db; }
+.maroon { background: #800000; }
+.red    { background: #FF0000; }
+.purple { background: #800080; }
+.white  { background: #FF00FF; color: black; }
+.green  { background: #008000; }
+.lime   { background: #00FF00; color: black; }
+.olive  { background: #808000; }
+.yellow { background: #FFFF00; color: black; }
+.navy   { background: #000080; }
+.blue   { background: #0000FF; }
+.teal   { background: #008080; }
+.aqua   { background: #00FFFF; color: black; }
